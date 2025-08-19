@@ -50,6 +50,8 @@ pub enum Tee {
     // Trusted Platform Module
     Tpm,
 
+    GcpSnpVtpm,
+
     // These values are only used for testing an attestation server, and should not
     // be used in an actual attestation scenario.
     Sample,
